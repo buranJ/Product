@@ -1,0 +1,140 @@
+.price {
+    margin-top: 150px;
+}
+
+.price__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+}
+
+.price__sub-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+}
+
+.price__card {
+    background: #02897A;
+    width: 33%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.price__card:hover {
+    transform: scale(1.2);
+    transform: rotateX('angle');
+    background-color: #FFFFFF;
+}
+.price__card:hover .price__wrap-title{
+    color: black;
+}
+.price__card:hover .price__title-wrap {
+    color: #22343D;
+}
+
+.price__card:hover .price__sum {
+    color: #02897A;
+}
+
+.price__card:hover .price__sum-right h4 {
+    color: #02897A;
+}
+
+.price__card:hover .price__btn {
+    color: whitesmoke;
+    background: #02897A;
+}
+
+.price__card:hover .price__wrap-title {
+    transition: 1s;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: black;
+}
+
+.price__title-wrap {
+    transition: 1s;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.price__sum {
+    transition: 1s;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price__sum-right h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.price__sum-right h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E0E0E0;
+}
+
+.price__wrap {
+    padding: 24px 75px 32px 73px;
+}
+
+.price__content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+    margin-bottom: 200px;
+}
+
+.price__btn {
+    margin-top: 38px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #02897A;
+    background: white;
+    border-radius: 8px;
+    padding: 11px 19px;
+    border: none;
+}
+.price__card:hover .price__sum-right h5{
+    color: #E0E0E0;
+}
